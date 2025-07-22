@@ -1,4 +1,3 @@
-# PulseFit AI
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +12,16 @@
     .cta { background: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
     .feature, .testimonial { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; }
     footer { background: #222; color: white; text-align: center; font-size: 14px; }
+    img.logo { width: 140px; margin-top: 15px; }
+    img.visual { width: 100%; max-width: 800px; margin: 20px auto; display: block; border-radius: 12px; }
+    ul { padding-left: 20px; }
+    h3 { margin-top: 20px; }
   </style>
 </head>
 <body>
+
   <header>
+    <img src="images/PulseFit_AI_Logo.png" alt="PulseFit AI Logo" class="logo">
     <h1>PulseFit AI</h1>
     <p>Smart Gym Equipment for Safer, Smarter Workouts</p>
     <nav>
@@ -29,25 +34,40 @@
 
   <section id="about">
     <h2>About Us</h2>
-    <p>PulseFit AI is an innovative health-tech company dedicated to making fitness safer through real-time health monitoring. Our smart gym machine tracks blood pressure and blood sugar during workouts using integrated AI technology. The system pairs with a mobile app and optional wearable smart band, offering emergency alerts and health insights. Founded by Layla Al Khuraibet and Muneera AlRoomi, our mission is to enhance safety and performance in fitness environments across Kuwait and beyond.</p>
+
+    <h3>🔍 Clear Business Purpose & Goals</h3>
+    <p>PulseFit AI is on a mission to make fitness safer and smarter. We use advanced AI technology to monitor key health metrics like blood pressure and glucose levels in real time. Our long-term goal is to transform traditional gym spaces into intelligent fitness hubs where users exercise with confidence and personalized insights.</p>
+
+    <h3>📚 History and Foundation of Our Idea</h3>
+    <p>Founded by Layla Al Khuraibet and Muneera AlRoomi, PulseFit AI began with a single idea: helping people with chronic conditions feel safer at the gym. Inspired by real challenges in fitness safety, we created a product that blends smart monitoring with AI to address those needs directly.</p>
+
+    <h3>🚀 What Makes Us Different</h3>
+    <ul>
+      <li>Live monitoring of blood pressure and glucose during workouts</li>
+      <li>AI alerts for emergencies and unusual health activity</li>
+      <li>Seamless integration with our mobile app and optional smart band</li>
+      <li>Ideal for individuals, gyms, and sports organizations</li>
+    </ul>
+
+    <img src="images/PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Visual" class="visual">
   </section>
 
   <section id="features">
     <h2>Our Products</h2>
     <div class="feature">
       <h3>Smart Gym Machine</h3>
-      <p>Real-time monitoring of blood pressure and sugar levels. AI-powered insights and emergency response features help create a safer gym experience.</p>
+      <p>Equipped with health sensors to monitor blood pressure and sugar levels in real time. AI insights and emergency alerts are built in for extra safety.</p>
     </div>
     <div class="feature">
       <h3>Mobile App</h3>
-      <p>Connect with our machine to receive personalized health data, alerts, and workout history. Subscription-based features for advanced analytics.</p>
+      <p>Connects to our machine to show your live health stats, workout history, and alerts. Subscription-based analytics are available.</p>
     </div>
     <div class="feature">
       <h3>Wearable Smart Band</h3>
-      <p>Optional device to track vitals continuously, even beyond gym sessions.</p>
+      <p>Optional band that tracks your vitals even when you're away from the gym.</p>
     </div>
-    <p><strong>Target Market:</strong> Gyms, fitness centers, sports academies, professional teams, and health-conscious home users.</p>
-    <p><strong>Delivery:</strong> Installation on-site + mobile app download + optional wearable band.</p>
+    <p><strong>Target Market:</strong> Gyms, sports academies, fitness centers, and individual users.</p>
+    <p><strong>Delivery:</strong> Machine installation, app download, and smart band options available.</p>
   </section>
 
   <section id="testimonials">
@@ -76,5 +96,6 @@
   <footer>
     <p>&copy; 2025 PulseFit AI. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
