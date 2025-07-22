@@ -1,3 +1,4 @@
+# PulseFit AI
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +13,10 @@
     .cta { background: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
     .feature, .testimonial { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; }
     footer { background: #222; color: white; text-align: center; font-size: 14px; }
-    img.logo { width: 120px; margin-top: 15px; }
-    ul { padding-left: 20px; }
   </style>
 </head>
 <body>
   <header>
-    <img src="PulseFit_AI_Logo.png" alt="PulseFit AI Logo" class="logo">
     <h1>PulseFit AI</h1>
     <p>Smart Gym Equipment for Safer, Smarter Workouts</p>
     <nav>
@@ -31,18 +29,52 @@
 
   <section id="about">
     <h2>About Us</h2>
-    <h3>📌 Company Mission and Vision</h3>
-    <p>PulseFit AI aims to redefine fitness safety by combining AI technology with real-time health tracking. Our vision is to empower gyms and individuals with reliable insights, ensuring confidence in every workout.</p>
+    <p>PulseFit AI is an innovative health-tech company dedicated to making fitness safer through real-time health monitoring. Our smart gym machine tracks blood pressure and blood sugar during workouts using integrated AI technology. The system pairs with a mobile app and optional wearable smart band, offering emergency alerts and health insights. Founded by Layla Al Khuraibet and Muneera AlRoomi, our mission is to enhance safety and performance in fitness environments across Kuwait and beyond.</p>
+  </section>
 
-    <h3>📚 History and Foundation of Our Idea</h3>
-    <p>Founded by Layla Al Khuraibet and Muneera AlRoomi, PulseFit AI began as an effort to address rising safety concerns in gyms. Our solution integrates health monitoring directly into gym equipment, delivering innovation and peace of mind.</p>
+  <section id="features">
+    <h2>Our Products</h2>
+    <div class="feature">
+      <h3>Smart Gym Machine</h3>
+      <p>Real-time monitoring of blood pressure and sugar levels. AI-powered insights and emergency response features help create a safer gym experience.</p>
+    </div>
+    <div class="feature">
+      <h3>Mobile App</h3>
+      <p>Connect with our machine to receive personalized health data, alerts, and workout history. Subscription-based features for advanced analytics.</p>
+    </div>
+    <div class="feature">
+      <h3>Wearable Smart Band</h3>
+      <p>Optional device to track vitals continuously, even beyond gym sessions.</p>
+    </div>
+    <p><strong>Target Market:</strong> Gyms, fitness centers, sports academies, professional teams, and health-conscious home users.</p>
+    <p><strong>Delivery:</strong> Installation on-site + mobile app download + optional wearable band.</p>
+  </section>
 
-    <h3>💡 Key Differentiators</h3>
-    <ul>
-      <li>Real-time blood pressure & glucose monitoring</li>
-      <li>AI-powered alerts and emergency notifications</li>
-      <li>Syncs with mobile app and optional smart band</li>
-      <li>Tailored for gyms, fitness centers, and sports teams</li>
-    </ul>
+  <section id="testimonials">
+    <h2>Testimonials & Case Studies</h2>
+    <div class="testimonial">
+      <p><em>“PulseFit AI changed the game for us. Our trainers now monitor members’ vitals in real-time, ensuring better safety and peace of mind.”</em> – Gym Owner</p>
+    </div>
+    <div class="testimonial">
+      <p><em>“As a diabetic, I finally feel safe exercising without worrying about hidden drops or spikes. The alerts are a lifesaver.”</em> – Fitness Enthusiast</p>
+    </div>
+  </section>
 
-    <img src="PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Gym Visual" style="width:100%; max-width:800px
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@pulsefitai.com">info@pulsefitai.com</a></p>
+    <p>Phone: +965-1234-5678</p>
+    <p>Follow us: Instagram @PulseFitAI | LinkedIn /PulseFitAI</p>
+    <form>
+      <label>Name: <input type="text" name="name" required /></label><br /><br />
+      <label>Email: <input type="email" name="email" required /></label><br /><br />
+      <label>Message:<br /> <textarea name="message" rows="4" cols="50"></textarea></label><br /><br />
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PulseFit AI. All rights reserved.</p>
+  </footer>
+</body>
+</html>
