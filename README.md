@@ -21,8 +21,7 @@
 <body>
 
   <header>
-    <img src="images/PulseFit_AI_Logo.png" alt="PulseFit AI Logo" class="logo">
-    <h1>PulseFit AI</h1>
+    <img src="images/PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Visual" class="visual">
     <p>Smart Gym Equipment for Safer, Smarter Workouts</p>
     <nav>
       <a href="#about">About</a>
