@@ -79,6 +79,42 @@
     </div>
   </section>
 
+<section id="subscribe">
+  <h2>Subscription Plans</h2>
+  <p>Choose your PulseFit AI plan and subscribe to receive updates and exclusive access:</p>
+
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
+    <!-- Free Trial -->
+    <div style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; flex: 1; min-width: 200px;">
+      <h3>Free Trial</h3>
+      <p>✅ 1 month full access</p>
+      <p><strong>$0</strong></p>
+    </div>
+
+    <!-- 1 Month Plan -->
+    <div style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; flex: 1; min-width: 200px;">
+      <h3>1 Month Plan</h3>
+      <p>✅ AI health monitoring</p>
+      <p><strong>$9.99</strong></p>
+    </div>
+
+    <!-- 12 Month Plan -->
+    <div style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; flex: 1; min-width: 200px;">
+      <h3>12 Month Plan</h3>
+      <p>✅ Save 30% annually</p>
+      <p><strong>$79.99</strong></p>
+      <label for="discount">Discount Code:</label>
+      <input type="text" id="discount" name="discount" placeholder="Enter code" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;" />
+    </div>
+  </div>
+
+  <form action="https://formsubmit.co/YOUR-EMAIL@example.com" method="POST">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <input type="hidden" name="_subject" value="New Subscription Interest" />
+    <button type="submit">Subscribe Now</button>
+  </form>
+</section>
+
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:info@pulsefitai.com">info@pulsefitai.com</a></p>
