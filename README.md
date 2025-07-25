@@ -16,32 +16,12 @@
     img.visual { width: 100%; max-width: 800px; margin: 20px auto; display: block; border-radius: 12px; }
     ul { padding-left: 20px; }
     h3 { margin-top: 20px; }
-
-    /* Subscription form styles */
-    #subscribe form {
-      margin-top: 10px;
-    }
-    #subscribe input[type="email"] {
-      padding: 10px;
-      width: 250px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    #subscribe button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      margin-left: 10px;
-      cursor: pointer;
-    }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Visual" class="visual">
+    <img src="images/PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Visual" class="visual">
     <p>Smart Gym Equipment for Safer, Smarter Workouts</p>
     <nav>
       <a href="#about">About</a>
@@ -68,7 +48,7 @@
       <li>Ideal for individuals, gyms, and sports organizations</li>
     </ul>
 
-    <img src="PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Visual" class="visual">
+    <img src="images/PHOTO-2025-07-22-14-20-34.jpg" alt="PulseFit AI Visual" class="visual">
   </section>
 
   <section id="features">
@@ -109,17 +89,6 @@
       <label>Email: <input type="email" name="email" required /></label><br /><br />
       <label>Message:<br /> <textarea name="message" rows="4" cols="50"></textarea></label><br /><br />
       <button type="submit">Send Inquiry</button>
-    </form>
-  </section>
-
-  <!-- 🆕 SUBSCRIPTION SECTION -->
-  <section id="subscribe">
-    <h2>Subscribe for Updates</h2>
-    <p>Get the latest updates on PulseFit AI products, features, and offers.</p>
-    <form action="https://formsubmit.co/YOUR-EMAIL@example.com" method="POST">
-      <input type="email" name="email" placeholder="Enter your email" required />
-      <input type="hidden" name="_subject" value="New Subscription Request!" />
-      <button type="submit">Subscribe</button>
     </form>
   </section>
 
